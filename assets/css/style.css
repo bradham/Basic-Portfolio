@@ -2,10 +2,25 @@
     color: aliceblue;
 }
 header{
-    background-color: red;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border: 20px;
     padding: 50px;
 }
 
-.sect1{
-    background-color: blue;
+h1 {
+    color: black;
+    background-color: #4aaaa5;
+}
+
+h2 {
+    color: black;
+}
+
+.main_section {
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #666666;
 }
