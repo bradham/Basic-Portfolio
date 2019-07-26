@@ -1,17 +1,48 @@
 *{
     color: aliceblue;
+    
 }
 header{
     background-color: #ffffff;
     border-color: #cccccc;
-    border: 20px;
-    padding: 50px;
+    border: 10px;
+    padding: 10px;
+    
 }
 
-h1 {
+#name {
+    background-color: #4aaaa5;
+    width: 240px;
+    /* height: 120px; */
+    position: relative; 
+    left: 240px; 
+    text-decoration-color: #ffffff;
+}
+
+.pagelinks{
+    background-color: #ffffff;
+    width: 200px;
+    position: relative;
+    text-decoration-color: #777777;
+}
+
+.about {
+    left: 840px; 
+    
+}
+
+.portfolio {
+    left: 1040px; 
+}
+
+.contact {
+    right: 80px; 
+}
+
+/* h1 {
     color: black;
     background-color: #4aaaa5;
-}
+} */
 
 h2 {
     color: black;
@@ -19,8 +50,32 @@ h2 {
 
 .main_section {
     background-color: #ffffff;
+    font: #777777;
 }
 
-footer {
+#description {
+    font: #777777;
+}
+
+#containerf {
+    
+    position: fixed;
+    bottom: 0;
+
+    /* padding: 5px; */
+    width: 100%;
+}
+
+#footerbar {
+    background-color: #4aaaa5;
+    height: 10px;
+   
+}
+
+#cp_bar {
+    height: 75px;
     background-color: #666666;
+    text-align: center;
+    vertical-align: 0;
+    
 }
