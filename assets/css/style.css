@@ -7,22 +7,31 @@ header{
     border-color: #cccccc;
     border: 10px;
     padding: 10px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 10px;
+    border-bottom-color: #777777;
     
 }
 
 #name {
     background-color: #4aaaa5;
     width: 240px;
-    /* height: 120px; */
-    position: relative; 
+    margin: 0;
+    height: 50px;
+    position: fixed; 
     left: 240px; 
     text-decoration-color: #ffffff;
+    text-align: center;
 }
 
 .pagelinks{
     background-color: #ffffff;
     width: 200px;
-    position: relative;
+    position: fixed;
     text-decoration-color: #777777;
 }
 
@@ -36,7 +45,7 @@ header{
 }
 
 .contact {
-    right: 80px; 
+    left: 1240px; 
 }
 
 /* h1 {
@@ -57,25 +66,28 @@ h2 {
     font: #777777;
 }
 
-#containerf {
+.containerf {
     
     position: fixed;
     bottom: 0;
+    background-color: #666666;
 
     /* padding: 5px; */
     width: 100%;
+    border-top: 10px solid #4aaaa5;
+    /* border-color: #4aaaa5; */
+
 }
 
-#footerbar {
-    background-color: #4aaaa5;
-    height: 10px;
-   
-}
 
 #cp_bar {
     height: 75px;
-    background-color: #666666;
+    /* background-color: #666666; */
     text-align: center;
-    vertical-align: 0;
+
+    
+    /* vertical-align: text-bottom; */
+   
+    font-size: 50%;
     
 }
