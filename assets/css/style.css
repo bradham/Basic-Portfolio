@@ -84,10 +84,15 @@ h2 {
     height: 75px;
     /* background-color: #666666; */
     text-align: center;
+    font-size: 60%;
+    
+}
 
-    
-    /* vertical-align: text-bottom; */
-   
-    font-size: 50%;
-    
+#cp {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    color: #cccccc;
+
 }
