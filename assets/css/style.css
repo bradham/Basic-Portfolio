@@ -5,26 +5,34 @@
 header{
     background-color: #ffffff;
     border-color: #cccccc;
-    padding: 10px;
-    height: 40px;
+    /* padding: 10px; */
+    height: 50px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    border-bottom: 20px;
-    border-bottom-color: #777777;
+    border-bottom-width: 5px;
+    border-color: #777777;
     
 }
 
 #name {
     background-color: #4aaaa5;
     width: 240px;
-    margin: 0;
+    margin: auto;
     height: 50px;
     position: absolute; 
+    top: 0;
     left: 20%; 
+}
+
+#name_text{
     text-decoration-color: #ffffff;
     text-align: center;
+    font-size: 30px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-top: 10px;
+
 }
 
 .pagelinks a{
@@ -93,7 +101,7 @@ h2 {
 
 
 #cp_bar {
-    height: 75px;
+    height: 45px;
     /* background-color: #666666; */
     text-align: center;
     font-size: 60%;
