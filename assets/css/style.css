@@ -23,7 +23,7 @@ header{
     height: 50px;
     position: absolute; 
     top: 0;
-    left: 20%; 
+    left: 10%; 
 }
 
 #name_text{
@@ -36,6 +36,7 @@ header{
 }
 
 .pagelinks a{
+    /* float: right; */
     background-color: #ffffff;
     width: 200px;
     color: #777777    
@@ -78,8 +79,27 @@ h2 {
 }
 
 .main_section {
+    /* clear: both; */
+    position: relative;
+    top: 60px;
+    left: 10%;
+    width: 960px;
     background-color: #ffffff;
     font: #777777;
+    height: 75%;
+}
+
+.pics{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+#about_title{
+    position: relative;
+    top: 60px;
+
+
 }
 
 #description {
